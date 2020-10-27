@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--main container-->
     <div class="wrapper">
         <aside class="sidebar">
-            <img class="my-photo" src="./img/photo.jpg" alt="my photo">
+            <img class="my-photo" src="../img/photo.jpg" alt="my photo">
             
             <!--contacts container-->
             <div class="contacts-container">
-                <h2 class="contacts-title">Contacts</h2>
+                <h2 class="contacts-title">Контанкти</h2>
                 <div >
                     <span class="contacts-link-type">C:</span>  <a class="contacts-link"  href="+380509792569">+38 050 979 25 69</a>
                 </div>
@@ -39,7 +39,7 @@
                     <li class="skill-item"><span class="skill-item-text">Python</span></li>
                     <li class="skill-item"><span class="skill-item-text">Arduino</span></li>
                     
-                </ul>
+                </ul> 
             </div>
 
             <!--Soft Skills container-->
@@ -57,27 +57,36 @@
 
         <!--about me container-->
         <div class="about-me-container">
-            <div><a href="https://alexandremagnesium.github.io/ua/">Укр</a></div>
+            <div class="language-box">
+                <a class="language" href="https://alexandremagnesium.github.io/ukr/">Укр</a>
+                <a class="language" href="https://alexandremagnesium.github.io"><span class="underline">Eng</span></a>
+            </div>
+            
             <!--about me info main-->
             <div class="info-container">
                 <h4 class="profession">Creator</h4>
-                <h1 class="my-name">Olexander Pedasiuk</h1>
-                <p class="text-about-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <h1 class="my-name">Олександр Педасюк</h1>
+                <p class="text-about-me">
+                    Студент 4 курсу, спеціальність промислова електроніка. Цікавлюсь
+                    програмуванням (Python, JS, HTML/CSS) та електронікою. Працював у
+                    майстерні з ремонту електроінструментів. Приймаю участь у стартапі Space
+                    Ceramic (space-ceramic.com), займаюсь електронікою та виступами на презентаціях
+                </p>
             </div>
 
             <!--project-->
             <div class="project-container">
-                <h2 class="about-me-title">Projects</h2>
+                <h2 class="about-me-title">Проєкти</h2>
                 <ol>
                     <li class="projects-item"> 
                         <a class="projects-link" href="https://t.me/yak_ya_po_vodu_khodyv">https://t.me/yak_ya_po_vodu_khodyv</a>
                         <span class="tech-name">......................................................................</span> 
-                        <span><b>[</b><span class="tech-name">Group</span><b>]</b></span>
+                        <span><b>[</b><span class="tech-name">Група</span><b>]</b></span>
                     </li>
                     <li class="projects-item"> 
                         <a class="projects-link" href="https://t.me/Not_for_suicide">https://t.me/Not_for_suicide</a>
                         <span class="tech-name">...........................................................................................</span> 
-                        <span><b>[</b><span class="tech-name">Group</span><b>]</b></span>
+                        <span><b>[</b><span class="tech-name">Група</span><b>]</b></span>
                     </li>
                     <li class="projects-item"> 
                         <a class="projects-link" href="https://t.me/Russian_roulette_for_gay_bot">https://t.me/Russian_roulette_for_gay_bot</a>
@@ -95,71 +104,39 @@
 
             <!--work experience-->
             <div>
-                <h3 class="about-me-title">Work Experience</h3>
+                <h3 class="about-me-title">Досвід роботи</h3>
 
                 <div>
-                    <h4 class="my-position">Engineer <span class="color-orang"> <a class="color-orang" href="http://space-ceramic.com/">Space ceramic</a></span> </h4>
+                    <h4 class="my-position">Інженер 
+                        <span class="color-orang">
+                            <a class="color-orang" href="http://space-ceramic.com/">Space ceramic</a>
+                        </span> 
+                    </h4>
                     <span class="date-country">
-                        October 2019 - up to now
+                        Жовтень 2019 - до сьогодні
                         <span class="vertical-line"></span>
-                        <span class="country">Ukraine</span>
+                        <span class="country">Україна</span>
                     </span>
 
                     <ul class="profession-duties">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Risus commodo viverra maecenas. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
+                        <li>Пайка плат</li>
+                        <li>Виступи на презентаціях</li>
+                        <li>Зробив сайт стартапу <a href="http://space-ceramic.com/">space-ceramic.com</a></li>
+                        <li>Участь в експерементах</li>
                     </ul>
                 </div>
 
-                <!--compani 2-->  <!--
-                <div>
-                    <h4 class="my-position">Manager <span class="color-orang">Roga & Kopyta New</span></h4>
-                    <span class="date-country">
-                        March 2015 - October 2018
-                        <span class="vertical-line"></span>
-                        <span class="country">Ukraine</span>
-                    </span>
 
-                    <ul class="profession-duties">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
-                        <li>Quis ipsum suspendisse ultrices gravida. </li>
-                        <li>Risus commodo viverra maecenas. </li>
-                    </ul>
-                </div>
-
-            -->
-
-                <!--compani 3-->  <!--
-                
-                <div>
-                    <h4 class="my-position">Manager <span class="color-orang">Roga & Kopyta LLC</span> </h4>
-                    <span class="date-country">
-                        June 2014 - February 2015
-                        <span class="vertical-line"></span>
-                        <span class="country">Ukraine</span>
-                    </span>
-
-                    <ul class="profession-duties">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Quis ipsum suspendisse ultrices gravida.</li>
-                        <li>Risus commodo viverra maecenas. </li>
-                    </ul>
-                </div>
-            </div>
-
-            -->
 
             <!--еducation-->
             <div class="еducation">
-                <h3 class="about-me-title">Education</h3>
-                <h4><span class="color-orang">National Technical University «Kharkiv Polytechnic Institute»</span></h4>
-                <h5 class="specialty">Electronics</h5>
+                <h3 class="about-me-title">Навчання</h3>
+                <h4><span class="color-orang">Національний технічний університет «Харківський політехнічний інститут»</span></h4>
+                <h5 class="specialty">Електроніка</h5>
                 <span class="date-country">
-                    Septermber 2017 - June 2021 
+                    Вересень 2017 - Червень 2021 
                     <span class="vertical-line"></span>
-                    <span class="country">Ukraine</span>
+                    <span class="country">Україна</span>
                 </span>
 
             </div>

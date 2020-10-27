@@ -104,10 +104,25 @@ a {
 
 
 .about-me-container{
-    padding-top: 110px;
+    /*padding-top: 110px; */
+    padding-top: 50px;
     padding-bottom: 110px;
     padding-left: 90px;
     padding-right: 90px;
+}
+
+.language-box {
+    margin-bottom: 35px;
+    text-align: right
+
+}
+
+.language {
+    color:  #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 40px;
 }
 
 .info-container {
@@ -199,10 +214,13 @@ a {
     margin-bottom: 15px;
 }
 
-
 .color-orang {
     color: #ff6b08;
 }
 .color-black {
     color: #000;
+}
+
+.underline {
+    text-decoration: underline;
 }
